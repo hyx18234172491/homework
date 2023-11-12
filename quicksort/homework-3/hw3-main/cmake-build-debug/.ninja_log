@@ -1,0 +1,25 @@
+# ninja log v5
+12	797	7214522697017121	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	b2413bf4f46c0f61
+6	5063	7214522739567150	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	7c7731b46278e11d
+849	2977	7214564692793912	run_tests.exe	a583810809c0036a
+16	1705	7214523040902552	lib/libgtest.a	f8241710bbc3d0e9
+13	98	7214523453871239	lib/libgtest_main.a	d4b4d4496c74c02e
+3	848	7214564671524617	CMakeFiles/run_tests.dir/tests/QuickSortTest.cpp.obj	4b6081fcdfa68c98
+849	2977	7214564692793912	run_tests[1]_tests.cmake	a583810809c0036a
+849	2977	7214564692793912	D:/code/C++_quicksort/hw3-main/hw3-main/cmake-build-debug/run_tests[1]_tests.cmake	a583810809c0036a
+3	889	7214573161630201	CMakeFiles/run_tests.dir/tests/QuickSortTest.cpp.obj	4b6081fcdfa68c98
+889	3131	7214573184021112	run_tests.exe	a583810809c0036a
+889	3131	7214573184021112	run_tests[1]_tests.cmake	a583810809c0036a
+889	3131	7214573184021112	D:/code/C++_quicksort/hw3-main/hw3-main/cmake-build-debug/run_tests[1]_tests.cmake	a583810809c0036a
+3	852	7214573306798112	CMakeFiles/run_tests.dir/tests/QuickSortTest.cpp.obj	4b6081fcdfa68c98
+852	2973	7214573327989368	run_tests.exe	a583810809c0036a
+852	2973	7214573327989368	run_tests[1]_tests.cmake	a583810809c0036a
+852	2973	7214573327989368	D:/code/C++_quicksort/hw3-main/hw3-main/cmake-build-debug/run_tests[1]_tests.cmake	a583810809c0036a
+3	958	7214604665299787	CMakeFiles/run_tests.dir/tests/QuickSortTest.cpp.obj	4b6081fcdfa68c98
+958	3394	7214604689661022	run_tests.exe	a583810809c0036a
+958	3394	7214604689661022	run_tests[1]_tests.cmake	a583810809c0036a
+958	3394	7214604689661022	D:/code/C++_quicksort/hw3-main/hw3-main/cmake-build-debug/run_tests[1]_tests.cmake	a583810809c0036a
+4	1162	7214604933768087	CMakeFiles/run_tests.dir/tests/QuickSortTest.cpp.obj	4b6081fcdfa68c98
+1163	3768	7214604959809410	run_tests.exe	a583810809c0036a
+1163	3768	7214604959809410	run_tests[1]_tests.cmake	a583810809c0036a
+1163	3768	7214604959809410	D:/code/C++_quicksort/hw3-main/hw3-main/cmake-build-debug/run_tests[1]_tests.cmake	a583810809c0036a

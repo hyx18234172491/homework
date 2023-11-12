@@ -1,0 +1,21 @@
+# ninja log v5
+0	78	7214522109948223	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	806c7322c18514c9
+0	78	7214522109948223	D:/code/C++_quicksort/hw3-main/hw3-main/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	806c7322c18514c9
+78	2400	7214522133178132	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	105c98c721f15ece
+78	2400	7214522133178132	D:/code/C++_quicksort/hw3-main/hw3-main/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	105c98c721f15ece
+2401	2478	7214522133948313	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	909e452185809ac6
+2401	2478	7214522133948313	D:/code/C++_quicksort/hw3-main/hw3-main/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	909e452185809ac6
+2478	2549	7214522134648134	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	17e1e0c4587f02fb
+2478	2549	7214522134648134	D:/code/C++_quicksort/hw3-main/hw3-main/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	17e1e0c4587f02fb
+2549	2619	7214522135358130	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	e90c3aa4590ceadd
+2549	2619	7214522135358130	D:/code/C++_quicksort/hw3-main/hw3-main/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	e90c3aa4590ceadd
+2619	2696	7214522136134665	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	1c7294bcb71108bc
+2619	2696	7214522136134665	D:/code/C++_quicksort/hw3-main/hw3-main/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	1c7294bcb71108bc
+2696	2766	7214522136824662	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	1195a8eea14c33c4
+2696	2766	7214522136824662	D:/code/C++_quicksort/hw3-main/hw3-main/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	1195a8eea14c33c4
+2766	2832	7214522137494656	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	2930ac2c2e587de4
+2766	2832	7214522137494656	D:/code/C++_quicksort/hw3-main/hw3-main/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	2930ac2c2e587de4
+2833	2920	7214522138364656	CMakeFiles/googletest-populate-complete	e92e18418b11a7bf
+2833	2920	7214522138364656	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	e92e18418b11a7bf
+2833	2920	7214522138364656	D:/code/C++_quicksort/hw3-main/hw3-main/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	e92e18418b11a7bf
+2833	2920	7214522138364656	D:/code/C++_quicksort/hw3-main/hw3-main/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	e92e18418b11a7bf
