@@ -1,0 +1,21 @@
+# ninja log v5
+7	947	7225950536622637	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	5bf55e6bf3f53620
+0	1330	7225950540442899	CMakeFiles/run_tests.dir/tests/TestGraph.cpp.obj	a7d0de6d133747b6
+4	4370	7225950570746763	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	80611d2660531d50
+4371	6002	7225950587175574	lib/libgtest.a	f8241710bbc3d0e9
+6002	6074	7225950587900764	lib/libgtest_main.a	d4b4d4496c74c02e
+6074	9538	7225950622504475	run_tests.exe	d85e614c886822e7
+6074	9538	7225950622504475	run_tests[1]_tests.cmake	d85e614c886822e7
+6074	9538	7225950622504475	D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug/run_tests[1]_tests.cmake	d85e614c886822e7
+4	1217	7225951163007353	CMakeFiles/run_tests.dir/tests/TestGraph.cpp.obj	a7d0de6d133747b6
+1218	4691	7225951197738823	run_tests.exe	d85e614c886822e7
+1218	4691	7225951197738823	run_tests[1]_tests.cmake	d85e614c886822e7
+1218	4691	7225951197738823	D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug/run_tests[1]_tests.cmake	d85e614c886822e7
+3	1200	7225951259100598	CMakeFiles/run_tests.dir/tests/TestGraph.cpp.obj	a7d0de6d133747b6
+1200	3647	7225951283572147	run_tests.exe	d85e614c886822e7
+1200	3647	7225951283572147	run_tests[1]_tests.cmake	d85e614c886822e7
+1200	3647	7225951283572147	D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug/run_tests[1]_tests.cmake	d85e614c886822e7
+3	1254	7225955819860665	CMakeFiles/run_tests.dir/tests/TestGraph.cpp.obj	a7d0de6d133747b6
+1254	4645	7225955853808833	run_tests.exe	d85e614c886822e7
+1254	4645	7225955853808833	run_tests[1]_tests.cmake	d85e614c886822e7
+1254	4645	7225955853808833	D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug/run_tests[1]_tests.cmake	d85e614c886822e7

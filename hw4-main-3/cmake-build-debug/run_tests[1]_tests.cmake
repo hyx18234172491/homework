@@ -1,0 +1,7 @@
+add_test([=[GraphTest.InstantiateEmptyGraph]=]  D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug/run_tests.exe [==[--gtest_filter=GraphTest.InstantiateEmptyGraph]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[GraphTest.InstantiateEmptyGraph]=]  PROPERTIES WORKING_DIRECTORY D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[GraphTest.InstantiateFromVector]=]  D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug/run_tests.exe [==[--gtest_filter=GraphTest.InstantiateFromVector]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[GraphTest.InstantiateFromVector]=]  PROPERTIES WORKING_DIRECTORY D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[GraphTest.AddVertex]=]  D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug/run_tests.exe [==[--gtest_filter=GraphTest.AddVertex]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[GraphTest.AddVertex]=]  PROPERTIES WORKING_DIRECTORY D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  run_tests_TESTS GraphTest.InstantiateEmptyGraph GraphTest.InstantiateFromVector GraphTest.AddVertex)

@@ -1,0 +1,21 @@
+# ninja log v5
+3206	3274	7225790176800941	D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	cd007e804007d1ad
+2957	3019	7225790174249565	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	6fcd00db19d89152
+2957	3019	7225790174249565	D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	6fcd00db19d89152
+3145	3206	7225790176121150	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	a65e7173315cec76
+1	66	7225790144718664	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	f46c56bcdd315b3b
+3019	3084	7225790174893498	D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	b8f5e4b32d4cc758
+1	66	7225790144718664	D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	f46c56bcdd315b3b
+66	2957	7225790173627090	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	1e993352649981c7
+66	2957	7225790173627090	D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	1e993352649981c7
+3019	3084	7225790174893498	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	b8f5e4b32d4cc758
+3084	3145	7225790175504666	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	3a262946cdff9906
+3084	3145	7225790175504666	D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	3a262946cdff9906
+3333	3411	7225790178171122	CMakeFiles/googletest-populate-complete	a72731f64bca4869
+3145	3206	7225790176121150	D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	a65e7173315cec76
+3206	3274	7225790176800941	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	cd007e804007d1ad
+3274	3333	7225790177390933	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	772ca1761e70ccaf
+3274	3333	7225790177390933	D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	772ca1761e70ccaf
+3333	3411	7225790178171122	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	a72731f64bca4869
+3333	3411	7225790178171122	D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	a72731f64bca4869
+3333	3411	7225790178171122	D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	a72731f64bca4869

@@ -1,0 +1,4 @@
+D:\install\clion2022_2_1\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/install/clion2022_2_1/bin/ninja/win/ninja.exe -G Ninja -S D:\code\hw_4_foreign\hw4-main-3 -B D:\code\hw_4_foreign\hw4-main-3\cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug
