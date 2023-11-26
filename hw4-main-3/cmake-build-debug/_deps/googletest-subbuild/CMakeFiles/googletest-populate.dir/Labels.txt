@@ -1,14 +1,14 @@
 # Target labels
  googletest-populate
 # Source files and their labels
-D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate
-D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate.rule
-D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete.rule
-D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build.rule
-D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure.rule
-D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download.rule
-D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install.rule
-D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir.rule
-D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch.rule
-D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test.rule
-D:/code/hw_4_foreign/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update.rule
+D:/code/hw_4_foreign/homework/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate
+D:/code/hw_4_foreign/homework/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate.rule
+D:/code/hw_4_foreign/homework/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete.rule
+D:/code/hw_4_foreign/homework/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build.rule
+D:/code/hw_4_foreign/homework/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure.rule
+D:/code/hw_4_foreign/homework/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download.rule
+D:/code/hw_4_foreign/homework/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install.rule
+D:/code/hw_4_foreign/homework/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir.rule
+D:/code/hw_4_foreign/homework/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch.rule
+D:/code/hw_4_foreign/homework/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test.rule
+D:/code/hw_4_foreign/homework/hw4-main-3/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update.rule

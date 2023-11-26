@@ -79,12 +79,61 @@ bool Graph<T>::hasEdge(T from, T to) const {
 
 template<typename T>
 std::optional<std::set<T>> Graph<T>::getNeighbors(T vertex) const {
-    const auto& it = _adjList.find(vertex);
-    if(it == _adjList.end()){
+    const auto &it = _adjList.find(vertex);
+    if (it == _adjList.end()) {
         return nullopt;
-    }else{
+    } else {
         return it->second;
     }
+}
+
+template<typename T>
+std::list<T> Graph<T>::DFS() {
+    // 第一步，找到入度为0的节点
+    map<T, int> count; // 某个点到达T点的次数
+    list <T> record;
+    int time = 0;
+    for (auto it: _adjList) {
+        // it->first
+        for (T neighbor: it.second) {
+            if(count.find(neighbor)==count.end()){
+                count[neighbor]=1;
+            }else{
+                count[neighbor]++;
+            }
+        }
+    }
+    for (auto it: _adjList) {
+        if (count[it.first] == 0) {
+            // 入读为0的节点，开始dfs访问该节点
+            if(_vertices.find(it.first)->second.color==White){// 判断节点是否是白色
+                DFS_visit(it.first, time,record);
+            }
+
+        }
+    }
+    return record;
+}
+
+template<typename T>
+void Graph<T>::DFS_visit(const T &u, int &time, std::list<T> &record) {
+    time++;
+    auto it1 = _vertices.find(u);
+    GraphNode<T> &cur_node = it1->second;
+    cur_node.color = Gray;
+    cur_node.discovery_time = time;
+
+    auto it2 = _adjList.find(u);
+    for (T neighbor: it2->second) {
+        if (_vertices.find(neighbor)->second.color == White) {
+            DFS_visit(neighbor, time, record);
+        }
+    }
+//    cout<<u<<endl;
+    time++;
+    cur_node.finish_time = time;
+    cur_node.color = Black;
+    record.push_front(u);
 }
 
 

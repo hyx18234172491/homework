@@ -20,6 +20,7 @@ private:
 
     /// @brief map from vertex value to GraphNode to modify the node for BFS/DFS
     std::map<T, GraphNode<T>> _vertices;
+    // {key,value}
 
     /// @brief helper function for DFS
     /// @param u the vertex to visit

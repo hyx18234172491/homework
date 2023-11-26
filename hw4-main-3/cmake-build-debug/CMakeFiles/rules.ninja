@@ -118,7 +118,7 @@ rule CXX_STATIC_LIBRARY_LINKER__gtest_main_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = D:\install\clion2022_2_1\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SD:\code\hw_4_foreign\hw4-main-3 -BD:\code\hw_4_foreign\hw4-main-3\cmake-build-debug
+  command = D:\install\clion2022_2_1\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SD:\code\hw_4_foreign\homework\hw4-main-3 -BD:\code\hw_4_foreign\homework\hw4-main-3\cmake-build-debug
   description = Re-running CMake...
   generator = 1
 
