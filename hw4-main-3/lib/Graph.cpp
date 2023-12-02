@@ -96,9 +96,9 @@ std::list<T> Graph<T>::DFS() {
     for (auto it: _adjList) {
         // it->first
         for (T neighbor: it.second) {
-            if(count.find(neighbor)==count.end()){
-                count[neighbor]=1;
-            }else{
+            if (count.find(neighbor) == count.end()) {
+                count[neighbor] = 1;
+            } else {
                 count[neighbor]++;
             }
         }
@@ -106,8 +106,8 @@ std::list<T> Graph<T>::DFS() {
     for (auto it: _adjList) {
         if (count[it.first] == 0) {
             // 入读为0的节点，开始dfs访问该节点
-            if(_vertices.find(it.first)->second.color==White){// 判断节点是否是白色
-                DFS_visit(it.first, time,record);
+            if (_vertices.find(it.first)->second.color == White) {// 判断节点是否是白色
+                DFS_visit(it.first, time, record);
             }
 
         }
@@ -136,5 +136,110 @@ void Graph<T>::DFS_visit(const T &u, int &time, std::list<T> &record) {
     record.push_front(u);
 }
 
+template<typename T>
+std::vector<T> Graph<T>::BFS(T start) {
+    queue<T>q;  // 定义队列
+    set<T>state; // 定义状态变量，表示是否已经入过队列
+    vector<T> result;
+
+    q.push(start);
+    state.insert(start);
+
+    while (!q.empty()){
+        T cur = q.front(); // 拿到队头元素
+        q.pop();    // 将该元素从队头移出
+        result.push_back(cur);
+
+        auto it = _adjList.find(cur);
+        for(T neighbor:it->second){ // it->second 就是邻居集合
+            auto it2 = state.find(neighbor);
+            if(it2==state.end()){   // 该邻居节点未入过队列
+                q.push(neighbor);
+                state.insert(neighbor); // 标记该邻居已经入过队列
+            }
+        }
+    }
+//    for (int i = 0; i < result.size(); ++i) {
+//        cout<<result[i]<<endl;
+//    }
+
+    return result;
+}
+
+//template<typename T>
+//vector<char> Graph<T>::shortestPath(T start, T end) {
+//    queue<T>q;  // 定义队列
+//    set<T>state; // 定义状态变量，表示是否已经入过队列
+//    vector<T> result;
+//    map<T,int>dis;
+//    dis[start] = 0;
+//
+//    q.push(start);
+//    state.insert(start);
+//
+//    while (!q.empty()){
+//        T cur = q.front(); // 拿到队头元素
+//        q.pop();    // 将该元素从队头移出
+//        result.push_back(cur);
+//        if(cur==end){
+//            return result;
+//        }
+//        auto it = _adjList.find(cur);
+//        for(T neighbor:it->second){ // it->second 就是邻居集合
+//            auto it2 = state.find(neighbor);
+//            if(it2==state.end()){   // 该邻居节点未入过队列
+//                q.push(neighbor);
+//                state.insert(neighbor); // 标记该邻居已经入过队列
+//                dis[neighbor] = dis[cur]+1;
+//            }
+//        }
+//    }
+//    return result;
+//}
+
+template<typename T>
+vector<char> Graph<T>::shortestPath(T start, T end) {
+    queue<T>q;  // 定义队列
+    set<T>state; // 定义状态变量，表示是否已经入过队列
+    vector<char> result;
+    /* 祖先 置为 空*/
+    auto it1 = _vertices.find(start);
+    it1->second.predecessor = nullopt;
+
+    q.push(start);
+    state.insert(start);
+
+    while (!q.empty()){
+        T cur = q.front(); // 拿到队头元素
+        q.pop();    // 将该元素从队头移出
+        if(cur==end){
+            break;
+        }
+        auto it = _adjList.find(cur);
+        for(T neighbor:it->second){ // it->second 就是邻居集合
+            auto it2 = state.find(neighbor);
+            if(it2==state.end()){   // 该邻居节点未入过队列
+                q.push(neighbor);
+                state.insert(neighbor); // 标记该邻居已经入过队列
+                auto it2 = _vertices.find(neighbor);    // 设置祖先
+                it2->second.predecessor = cur;
+            }
+        }
+    }
+
+    auto it3 = _vertices.find(end);
+    result.push_back(end);
+    auto predecessor = it3->second.predecessor;
+    while (predecessor.has_value()){
+        T parent = predecessor.value();
+        result.push_back(parent);
+        predecessor = _vertices.find(parent)->second.predecessor;
+    }
+    std::reverse(result.begin(), result.end());
+//    for (int i = 0; i < result.size(); ++i) {
+//        cout<<result[i]<<endl;
+//    }
+    return result;
+}
 
 #endif // GRAPH_CPP

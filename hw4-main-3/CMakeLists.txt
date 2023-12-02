@@ -24,8 +24,8 @@ enable_testing()
 
 add_executable(
   run_tests
-#  tests/TestGraph.cpp
-#  tests/TestBFS.cpp
+  tests/TestGraph.cpp
+  tests/TestBFS.cpp
   tests/TestDFS.cpp
 )
 target_link_libraries(
