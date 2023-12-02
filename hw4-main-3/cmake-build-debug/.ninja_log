@@ -66,3 +66,9 @@
 1459	4785	7231931740304337	run_tests.exe	4feb7a7d474b9cfd
 1459	4785	7231931740304337	run_tests[1]_tests.cmake	4feb7a7d474b9cfd
 1459	4785	7231931740304337	D:/code/hw_4_foreign/homework/hw4-main-3/cmake-build-debug/run_tests[1]_tests.cmake	4feb7a7d474b9cfd
+6	1559	7231939640593726	CMakeFiles/run_tests.dir/tests/TestGraph.cpp.obj	122afaa98c4ecbe5
+3	1568	7231939640693709	CMakeFiles/run_tests.dir/tests/TestDFS.cpp.obj	5fa4970188361d82
+9	1797	7231939642954691	CMakeFiles/run_tests.dir/tests/TestBFS.cpp.obj	c61b05b1aeb6f7fa
+1797	5180	7231939676803283	run_tests.exe	4feb7a7d474b9cfd
+1797	5180	7231939676803283	run_tests[1]_tests.cmake	4feb7a7d474b9cfd
+1797	5180	7231939676803283	D:/code/hw_4_foreign/homework/hw4-main-3/cmake-build-debug/run_tests[1]_tests.cmake	4feb7a7d474b9cfd

@@ -44,9 +44,8 @@ TEST(BFSTest2, InstantiateGraphFromTextBook){
 
 TEST(BFSTest3, InstantiateGraphFromTextBook){
     Graph<char> g = getTextbookGraphBFS();
-    std::vector<char> shortest_path = g.shortestPath('w','y');
-    std::vector<char> expected{'w','v','y'};
-    ASSERT_EQ(shortest_path, expected);
+    int length = g.shortestPath('w','y');
+    ASSERT_EQ(length, 2);
 }
 
 

@@ -84,7 +84,7 @@ public:
     /// @param start the starting vertex of the shortest path
     /// @param end the ending vertex of the shortest path
     /// @return the length of the shortest path between the two vertices
-    std::vector<char> shortestPath(T start, T end);
+    int shortestPath(T start, T end);
 
     // ----------------- DFS -----------------
 
